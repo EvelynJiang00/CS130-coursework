@@ -1,20 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=EB+Garamond&family=Square+Peg&display=swap');
+
+
+
 * {
     box-sizing: border-box;
 }
 
+h2 {
+    font-family: "Square Peg";
+}
+
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family: "Abel", Arial, sans-serif;
 }
 header, section {
     padding: 20px;
+    min-height: 40vh;
 }
 p, li {
     line-height: 1.5em;
 }
+#tutorials {
+    background-color: #fcd5ce;
+}
+
+#homework {
+    background-color: #dfe7fd;
+}
 
 #inspiration {
-    background-color: #F0F0F0;
+    background-color: #e9edc9;
     padding-top: 40px;
     padding-bottom: 40px;
 }
